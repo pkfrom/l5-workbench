@@ -5,7 +5,7 @@
 You can install the package via composer command line by running this following command.
 
 ```
-"fromz/workbench": "~5.1",
+"fromz/workbench": "5.*",
 ```
 
 After the package installed, add `Fromz\Workbench\WorkbenchServiceProvider` to your `providers` array in `config/app.php` file.
