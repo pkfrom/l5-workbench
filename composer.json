@@ -1,0 +1,35 @@
+{
+    "name": "fromz/workbench",
+    "description": "Laravel 5 Workbench.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Fromz Labs",
+            "email": "fromz.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/filesystem": "5.1.*",
+        "illuminate/support": "5.1.*",
+        "symfony/finder": "2.7.*"
+    },
+    "require-dev": {
+        "illuminate/console": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fromz\\Workbench\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.2-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
